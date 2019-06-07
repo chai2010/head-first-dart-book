@@ -1,0 +1,729 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>1.1 Dart简史 · Dart学习笔记</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="ch1.2-install.html" />
+    
+    
+    <link rel="prev" href="readme.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="readme.html">
+            
+                <a href="readme.html">
+            
+                    
+                    第1章 简介
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.2.1" data-path="ch1.1-histroy.html">
+            
+                <a href="ch1.1-histroy.html">
+            
+                    
+                    1.1 Dart简史
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="ch1.2-install.html">
+            
+                <a href="ch1.2-install.html">
+            
+                    
+                    1.2 安装开发环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="ch1.3-helloworld.html">
+            
+                <a href="ch1.3-helloworld.html">
+            
+                    
+                    1.3 第一个Dart程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="ch1.4-future.html">
+            
+                <a href="ch1.4-future.html">
+            
+                    
+                    1.4 Dart的发展前景
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../ch2-program-struct/readme.html">
+            
+                <a href="../ch2-program-struct/readme.html">
+            
+                    
+                    第2章 程序结构
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../ch2-program-struct/ch2.1-names.html">
+            
+                <a href="../ch2-program-struct/ch2.1-names.html">
+            
+                    
+                    2.1 命名
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../ch2-program-struct/ch2.2-const-var-final.html">
+            
+                <a href="../ch2-program-struct/ch2.2-const-var-final.html">
+            
+                    
+                    2.2 常量、变量、final量(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../ch2-program-struct/ch2.3-control-flow.html">
+            
+                <a href="../ch2-program-struct/ch2.3-control-flow.html">
+            
+                    
+                    2.3 控制流(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../ch2-program-struct/ch2.4-assert-exception.html">
+            
+                <a href="../ch2-program-struct/ch2.4-assert-exception.html">
+            
+                    
+                    2.4 断言和异常(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../ch2-program-struct/ch2.5-scope.html">
+            
+                <a href="../ch2-program-struct/ch2.5-scope.html">
+            
+                    
+                    2.5 作用域(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../ch3-data-type/readme.html">
+            
+                <a href="../ch3-data-type/readme.html">
+            
+                    
+                    第3章 数据类型(TODO)
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../ch3-data-type/ch3.1-bool.html">
+            
+                <a href="../ch3-data-type/ch3.1-bool.html">
+            
+                    
+                    3.1 布尔类型(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../ch3-data-type/ch3.2-number.html">
+            
+                <a href="../ch3-data-type/ch3.2-number.html">
+            
+                    
+                    3.1 数值类型(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../ch3-data-type/ch3.3-string.html">
+            
+                <a href="../ch3-data-type/ch3.3-string.html">
+            
+                    
+                    3.3 字符串(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../ch3-data-type/ch3.4-list.html">
+            
+                <a href="../ch3-data-type/ch3.4-list.html">
+            
+                    
+                    3.4 List(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../ch3-data-type/ch3.5-map.html">
+            
+                <a href="../ch3-data-type/ch3.5-map.html">
+            
+                    
+                    3.5 Map(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../ch3-data-type/ch3.6-runes.html">
+            
+                <a href="../ch3-data-type/ch3.6-runes.html">
+            
+                    
+                    3.6 Runes(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../ch4-func-and-class/readme.html">
+            
+                <a href="../ch4-func-and-class/readme.html">
+            
+                    
+                    第4章 函数和类(TODO)
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../ch4-func-and-class/ch4.1-args-and-return.html">
+            
+                <a href="../ch4-func-and-class/ch4.1-args-and-return.html">
+            
+                    
+                    4.1 参数和返回值(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../ch4-func-and-class/ch4.2-anonymous-func.html">
+            
+                <a href="../ch4-func-and-class/ch4.2-anonymous-func.html">
+            
+                    
+                    4.2 嵌套函数和匿名函数(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../ch4-func-and-class/ch4.3-using-class.html">
+            
+                <a href="../ch4-func-and-class/ch4.3-using-class.html">
+            
+                    
+                    4.3 使用类(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../ch4-func-and-class/ch4.4-class-constructors.html">
+            
+                <a href="../ch4-func-and-class/ch4.4-class-constructors.html">
+            
+                    
+                    4.4 类的构造函数(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../ch4-func-and-class/ch4.5-class-and-interface.html">
+            
+                <a href="../ch4-func-and-class/ch4.5-class-and-interface.html">
+            
+                    
+                    4.5 类和接口(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../ch4-func-and-class/ch4.6-class-extends.html">
+            
+                <a href="../ch4-func-and-class/ch4.6-class-extends.html">
+            
+                    
+                    4.6 类的继承(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../ch5-package-and-pub/readme.html">
+            
+                <a href="../ch5-package-and-pub/readme.html">
+            
+                    
+                    第5章 包和仓库(TODO)
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../ch5-package-and-pub/ch5.1-import-package.html">
+            
+                <a href="../ch5-package-and-pub/ch5.1-import-package.html">
+            
+                    
+                    5.1 导入包(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../ch5-package-and-pub/ch5.2-create-package.html">
+            
+                <a href="../ch5-package-and-pub/ch5.2-create-package.html">
+            
+                    
+                    5.2 创建包(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../ch5-package-and-pub/ch5.3-package-struct.html">
+            
+                <a href="../ch5-package-and-pub/ch5.3-package-struct.html">
+            
+                    
+                    5.3 包的目录结构(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../ch5-package-and-pub/ch5.4-package-test.html">
+            
+                <a href="../ch5-package-and-pub/ch5.4-package-test.html">
+            
+                    
+                    5.4 包的测试(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../ch5-package-and-pub/ch5.5-package-doc.html">
+            
+                <a href="../ch5-package-and-pub/ch5.5-package-doc.html">
+            
+                    
+                    5.5 包文档(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../ch5-package-and-pub/ch5.6-publish-package.html">
+            
+                <a href="../ch5-package-and-pub/ch5.6-publish-package.html">
+            
+                    
+                    5.6 发布包(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../ch6-async-await-isolate/readme.html">
+            
+                <a href="../ch6-async-await-isolate/readme.html">
+            
+                    
+                    第6章 异步和多线程(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../ch7-generics/readme.html">
+            
+                <a href="../ch7-generics/readme.html">
+            
+                    
+                    第7章 泛型(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../ch8-mixins/readme.html">
+            
+                <a href="../ch8-mixins/readme.html">
+            
+                    
+                    第8章 mixins聚合(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../ch9-testing/readme.html">
+            
+                <a href="../ch9-testing/readme.html">
+            
+                    
+                    第9章 单元测试(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../ch10-stdlib/readme.html">
+            
+                <a href="../ch10-stdlib/readme.html">
+            
+                    
+                    第10章 标准库(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../appendix/readme.html">
+            
+                <a href="../appendix/readme.html">
+            
+                    
+                    后记(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >1.1 Dart简史</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="11-dart&#x7B80;&#x53F2;">1.1 Dart&#x7B80;&#x53F2;</h2>
+<p>Dart&#x8BED;&#x8A00;&#x5728;2011&#x5E74;10&#x6708;10&#x65E5;&#x6B63;&#x5F0F;&#x8BDE;&#x751F;, &#x8BED;&#x8A00;&#x7531;Google Chrome&#x7684;V8&#x56E2;&#x961F;&#x7684;&#x9886;&#x5BFC;&#x8005;Lars Bak&#x4E3B;&#x5BFC;&#x8BBE;&#x8BA1;, &#x5B9A;&#x4F4D;&#x662F;&#x4E3A;&#x4E0B;&#x4E00;&#x4EE3;&#x7684;Web&#x5F00;&#x53D1;&#x8BED;&#x8A00;. Dart&#x8BED;&#x8A00;&#x4ECE;&#x8BDE;&#x751F;&#x81F3;&#x4ECA;&#x4E3B;&#x8981;&#x7ECF;&#x8FC7;&#x4E86;1.0&#x548C;2.0&#x4E24;&#x4E2A;&#x9636;&#x6BB5;.</p>
+<h3 id="111-&#x8BDE;&#x751F;&#x80CC;&#x666F;">1.1.1 &#x8BDE;&#x751F;&#x80CC;&#x666F;</h3>
+<p>Google&#x516C;&#x53F8;&#x66FE;&#x7ECF;&#x5F00;&#x53D1;&#x8FC7;&#x4E00;&#x4E2A;GWT&#x6280;&#x672F;, &#x7528;&#x4E8E;&#x5C06;Java&#x7F16;&#x5199;&#x5230;&#x7A0B;&#x5E8F;&#x7FFB;&#x8BD1;&#x4E3A;JavaScript&#x8BED;&#x8A00;, &#x7136;&#x540E;&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x6267;&#x884C;. &#x7528;Java&#x6765;&#x5F00;&#x53D1;Web&#x7A0B;&#x5E8F;&#x662F;&#x4E3A;&#x4E86;&#x89E3;&#x51B3;JavaScript&#x8BED;&#x8A00;&#x4E0D;&#x64C5;&#x957F;&#x590D;&#x6742;&#x5DE5;&#x7A0B;&#x7BA1;&#x7406;&#x7684;&#x7F3A;&#x9677;, &#x636E;&#x8BF4;GWT&#x6280;&#x672F;&#x66FE;&#x7ECF;&#x5927;&#x91CF;&#x88AB;&#x7528;&#x4E8E;Gmail&#x7B49;&#x91CD;&#x91CF;&#x7EA7;&#x4EA7;&#x54C1;&#x7684;&#x5F00;&#x53D1;&#x5DE5;&#x4F5C;. &#x800C;Dart&#x8BED;&#x8A00;&#x501F;&#x9274;&#x4E86;C++&#x548C;Java&#x7B49;&#x8BF8;&#x591A;&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x8BED;&#x8A00;&#x7684;&#x7279;&#x6027;, &#x4E5F;&#x662F;&#x4E3A;&#x5927;&#x578B;Web&#x5E94;&#x7528;&#x5F00;&#x53D1;&#x800C;&#x8BBE;&#x8BA1;&#x7684;&#x8BED;&#x8A00;, &#x53EF;&#x4EE5;&#x8BA4;&#x4E3A;Dart&#x8BED;&#x8A00;&#x662F;GWT&#x8BBE;&#x8BA1;&#x601D;&#x8DEF;&#x7684;&#x5EF6;&#x7EED;.</p>
+<h3 id="112-dart-10">1.1.2 Dart 1.0</h3>
+<p>Dart 1.0&#x662F;Dart&#x8BED;&#x8A00;&#x7B2C;&#x4E00;&#x4E2A;&#x91CD;&#x91CF;&#x7EA7;&#x7684;&#x7248;&#x672C;, &#x5728;2013&#x5E74;10&#x6708;&#x6B63;&#x5F0F;&#x53D1;&#x5E03;. Dart 1.0&#x4E00;&#x53D1;&#x5E03;&#x5C31;&#x5168;&#x90E8;&#x7684;&#x643A;&#x5E26;&#x8C6A;&#x534E;&#x88C5;&#x5907;: &#x4E00;&#x4E2A;&#x4E13;&#x95E8;&#x4E3A;Dart&#x8BED;&#x8A00;&#x8BBE;&#x8BA1;&#x7684;&#x865A;&#x62DF;&#x673A;; &#x4E00;&#x4E2A;Dart2JS&#x7F16;&#x8BD1;&#x5DE5;&#x5177;&#x7528;&#x4E8E;&#x5C06;Dart&#x7F16;&#x8BD1;&#x4E3A;JavaScript&#x76EE;&#x6807;&#x4EE3;&#x7801;; &#x4E00;&#x4E2A;&#x57FA;&#x4E8E;Eclipse&#x4E3A;Dart&#x5B9A;&#x5236;&#x7684;Dartium IDE&#x96C6;&#x6210;&#x5F00;&#x53D1;&#x73AF;&#x5883;. &#x5176;&#x4E2D;Dartium&#x4E0D;&#x4EC5;&#x4EC5;&#x5305;&#x542B;&#x4E86;Dart&#x4E00;&#x6574;&#x5957;&#x5DE5;&#x5177;&#x94FE;, &#x800C;&#x4E14;&#x5305;&#x542B;&#x4E86;&#x4E00;&#x4E2A;&#x5185;&#x7F6E;Dart&#x865A;&#x62DF;&#x673A;&#x7684;Chrome&#x6D4F;&#x89C8;&#x5668;!</p>
+<p>&#x5728;Dart 1.0&#x8BDE;&#x751F;&#x7684;&#x540C;&#x65F6;, Google&#x516C;&#x53F8;&#x66F4;&#x662F;&#x5C06;&#x5F53;&#x65F6;&#x70ED;&#x95E8;&#x7684;&#x524D;&#x7AEF;&#x5F00;&#x53D1;&#x6846;&#x67B6;AngularJS&#x79FB;&#x690D;&#x5230;&#x4E86;Dart&#x73AF;&#x5883;. &#x4ECE;Dart&#x8BED;&#x8A00;&#x5185;&#x7F6E;&#x7684;&#x5DE5;&#x5177;&#x53EF;&#x4EE5;&#x770B;&#x51FA;&#x5B83;&#x6709;&#x7740;&#x4F17;&#x591A;&#x8FDC;&#x5927;&#x76EE;&#x6807;: Dart2JS/&#x5185;&#x7F6E;Dart VM&#x7684;Chrome&#x548C;&#x5BF9;AngularJS&#x6846;&#x67B6;&#x5BF9;&#x652F;&#x6301;&#x8868;&#x660E;Dart&#x8BED;&#x8A00;&#x7684;&#x5B9A;&#x4F4D;&#x786E;&#x5B9E;&#x662F;&#x4E3A;&#x4E0B;&#x4E00;&#x4EE3;&#x7684;Web&#x5F00;&#x53D1;&#x8BED;&#x8A00;; &#x540C;&#x65F6;, &#x5176;&#x4E2D;Dart VM&#x53EF;&#x4EE5;&#x5BF9;&#x6807;Android&#x5E73;&#x53F0;&#x7684;Dalvik&#x865A;&#x62DF;&#x673A;, &#x5F53;&#x65F6;&#x5F88;&#x591A;&#x4E1A;&#x5185;&#x4EBA;&#x751F;&#x731C;&#x6D4B;Dart&#x5F88;&#x53EF;&#x80FD;&#x53D1;&#x5C55;&#x4E3A;Android&#x5F00;&#x53D1;&#x7684;&#x4E3B;&#x529B;&#x8BED;&#x8A00;.</p>
+<p>&#x5728;1.0&#x53D1;&#x5E03;&#x4E4B;&#x540E;, ECMA&#x66F4;&#x662F;&#x6210;&#x7ACB;&#x4E86;&#x4E13;&#x95E8;&#x7684;TC52&#x6280;&#x672F;&#x59D4;&#x5458;&#x4F1A;&#x5F00;&#x5C55;Dart&#x8BED;&#x8A00;&#x7684;&#x6807;&#x51C6;&#x5316;&#x5DE5;&#x4F5C;. &#x6700;&#x7EC8;&#x5728;2014&#x5E74;7&#x6708;&#xFF0C;Dart&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x7B2C;&#x4E00;&#x7248;&#x6210;&#x4E3A;ECMA&#x56FD;&#x9645;&#x6807;&#x51C6;.</p>
+<h3 id="113-dart-20">1.1.3 Dart 2.0</h3>
+<p>2018&#x5E74;8&#x6708;, Dart&#x8BED;&#x8A00;&#x6B63;&#x5F0F;&#x8FDB;&#x5165;2.0&#x65F6;&#x4EE3;. &#x5982;&#x679C;&#x8BF4;Dart 1.0&#x53EA;&#x662F;&#x5728;&#x5404;&#x4E2A;&#x65B9;&#x5411;&#x592F;&#x5B9E;&#x57FA;&#x7840;, &#x90A3;&#x4E48;Dart 2.0&#x5C31;&#x662F;&#x5F00;&#x59CB;&#x771F;&#x6B63;&#x8FDB;&#x5165;&#x53D1;&#x529B;&#x9636;&#x6BB5;&#x4E86;. Dart 2.0&#x9488;&#x5BF9;&#x670D;&#x52A1;&#x7AEF;&#x5F00;&#x53D1;/Web&#x5F00;&#x53D1;/&#x624B;&#x673A;&#x5F00;&#x53D1;&#x4E09;&#x5927;&#x9886;&#x57DF;&#x505A;&#x4E86;&#x6DF1;&#x5EA6;&#x5B9A;&#x5236;&#x7EC6;&#x5206;&#x7684;&#x5DE5;&#x4F5C;. &#x9996;&#x5148;Dart&#x8BED;&#x8A00;&#x7684;&#x6807;&#x51C6;&#x5E93;&#x4E3A;&#x670D;&#x52A1;&#x5668;&#x7AEF;&#x5F00;&#x53D1;&#x63D0;&#x4F9B;&#x4E86;<code>dart:io</code>&#x7B49;&#x8BF8;&#x591A;&#x652F;&#x6301;. &#x5728;Web&#x65B9;&#x5411;, Dart&#x7EE7;&#x7EED;&#x548C;Angular&#x6846;&#x67B6;&#x8FDB;&#x884C;&#x6DF1;&#x5EA6;&#x6574;&#x5408;. &#x6700;&#x5927;&#x7684;&#x4EAE;&#x70B9;&#x662F;&#x9488;&#x5BF9;&#x624B;&#x673A;&#x8BBE;&#x5907;&#x7684;Flutter&#x8DE8;&#x5E73;&#x53F0;&#x7684;&#x5F00;&#x53D1;&#x6846;&#x67B6;, &#x5B83;&#x4E3A;Dart&#x8BED;&#x8A00;&#x5E26;&#x6765;&#x4E86;Ahead-of-time&#x7F16;&#x8BD1;&#x6280;&#x672F;, &#x53EF;&#x4EE5;&#x5C06;Dart&#x8BED;&#x8A00;&#x5F00;&#x53D1;&#x7684;&#x7A0B;&#x5E8F;&#x76F4;&#x63A5;&#x7F16;&#x8BD1;&#x4E3A;&#x672C;&#x5730;&#x673A;&#x5668;&#x7801;&#x8FD0;&#x884C;. &#x540C;&#x65F6;, Dart2&#x8BED;&#x8A00;&#x9488;&#x5BF9;&#x5BA2;&#x6237;&#x7AEF;&#x5F00;&#x53D1;&#x5927;&#x5927;&#x52A0;&#x5F3A;&#x548C;&#x7CBE;&#x7B80;&#x4E86;&#x7C7B;&#x578B;&#x7CFB;&#x7EDF;.</p>
+<p>&#x867D;&#x7136;Dart&#x8BED;&#x8A00;&#x6709;&#x7740;&#x8BF8;&#x591A;&#x4F18;&#x79C0;&#x7684;&#x7279;&#x6027;, &#x56FD;&#x5185;&#x5916;&#x7684;&#x5F00;&#x53D1;&#x4EBA;&#x5458;&#x771F;&#x6B63;&#x5728;&#x751F;&#x4EA7;&#x4E2D;&#x4F7F;&#x7528;Dart&#x5F00;&#x53D1;&#x7684;&#x5E76;&#x4E0D;&#x591A;, &#x751A;&#x81F3;&#x574A;&#x95F4;&#x6709;&#x5F88;&#x5927;Dart&#x8BED;&#x8A00;&#x5DF2;&#x6B7B;&#x7684;&#x6D41;&#x8A00;. &#x4F46;&#x662F;&#x968F;&#x7740;Flutter&#x6846;&#x67B6;&#x7684;&#x6210;&#x719F;&#x548C;Dart2.0&#x7684;&#x8BDE;&#x751F;, &#x800C;&#x4E14;Google&#x79D8;&#x5BC6;&#x5F00;&#x53D1;&#x7684;Fuchsia&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x754C;&#x9762;&#x4E5F;&#x94A6;&#x5B9A;&#x4E86;Dart&#x8BED;&#x8A00;, Dart&#x8BED;&#x8A00;&#x7684;&#x518D;&#x6B21;&#x8FDB;&#x5165;&#x4E86;&#x5E7F;&#x5927;&#x7A0B;&#x5E8F;&#x5F00;&#x53D1;&#x4EBA;&#x5458;&#x7684;&#x89C6;&#x7EBF;. Dart&#x8BED;&#x8A00;&#x5F88;&#x53EF;&#x80FD;&#x6210;&#x4E3A;&#x662F;&#x672A;&#x6765;&#x51E0;&#x5341;&#x5E74;&#x4E2D;&#x6700;&#x91CD;&#x8981;&#x7684;&#x5168;&#x6808;&#x5F0F;&#x5F00;&#x53D1;&#x8BED;&#x8A00;, &#x5B83;&#x503C;&#x5F97;&#x6BCF;&#x4E00;&#x4E2A;&#x4E25;&#x8083;&#x7684;&#x7A0B;&#x5E8F;&#x5F00;&#x53D1;&#x5458;&#x8BA4;&#x771F;&#x5BF9;&#x5F85;.</p>
+
+                                
+                                </section>
+                            
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="readme.html" class="navigation navigation-prev " aria-label="Previous page: 第1章 简介">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="ch1.2-install.html" class="navigation navigation-next " aria-label="Next page: 1.2 安装开发环境">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"1.1 Dart简史","level":"1.2.1","depth":2,"next":{"title":"1.2 安装开发环境","level":"1.2.2","depth":2,"path":"ch1-intro/ch1.2-install.md","ref":"ch1-intro/ch1.2-install.md","articles":[]},"previous":{"title":"第1章 简介","level":"1.2","depth":1,"path":"ch1-intro/readme.md","ref":"ch1-intro/readme.md","articles":[{"title":"1.1 Dart简史","level":"1.2.1","depth":2,"path":"ch1-intro/ch1.1-histroy.md","ref":"ch1-intro/ch1.1-histroy.md","articles":[]},{"title":"1.2 安装开发环境","level":"1.2.2","depth":2,"path":"ch1-intro/ch1.2-install.md","ref":"ch1-intro/ch1.2-install.md","articles":[]},{"title":"1.3 第一个Dart程序","level":"1.2.3","depth":2,"path":"ch1-intro/ch1.3-helloworld.md","ref":"ch1-intro/ch1.3-helloworld.md","articles":[]},{"title":"1.4 Dart的发展前景","level":"1.2.4","depth":2,"path":"ch1-intro/ch1.4-future.md","ref":"ch1-intro/ch1.4-future.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-search"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"highlight":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"preface.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Dart学习笔记","language":"zh-hans","gitbook":"3.x","description":"Dart学习笔记"},"file":{"path":"ch1-intro/ch1.1-histroy.md","mtime":"2018-12-04T16:37:10.772Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-07T07:58:40.551Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
