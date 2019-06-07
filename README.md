@@ -14,7 +14,15 @@
 
 - [SUMMARY.md](SUMMARY.md)
 - https://chai2010.cn/head-first-dart-book/
-- QQ群(Dart编程语言)：701773238
+
+## 加入微信群
+
+![](https://chai2010.cn/static-images/weixin-dart.jpg)
+
+## 关注微信公众号(光谷码农/guanggu-coder)
+
+![](https://chai2010.cn/advanced-go-programming-book/weixin-guanggu-coder-logo.png)
+
 
 ## 版权声明
 
