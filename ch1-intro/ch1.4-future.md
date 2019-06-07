@@ -2,7 +2,7 @@
 
 Google在最近10年内发布了Go和Dart两大编程语言. Go语言哲学是"Less is more", 主打云计算服务器方向. Dart的哲学是"More is more", 目标是下一代全栈式编程语言.
 
-曾经V8引擎的横空出世彻让JavaScript开发人员成为一等公民, 而基于V8技术的Node.js将JavaScript语言带入了服务器开发领域, 从此JavaScript就磕磕绊绊地走上了全栈开发语言之路. 和C++语言类似, JavaScript语言也是没有经过严格设计的编程语言, 语言的演化过程就是在不停地打新补丁, 同时逐步废弃旧特性. 作为全栈式编程语言, JavaScript在面对越来越复杂的服务器/手机设备等领域的开发中逐渐显露疲惫之态. 而Dart背后有着Google强大地开发团队支持, 一个语言居然携带了DartVM/Flutter AOT编译技术和Dart2js转译等三种不同层面的编译技术, 同时覆盖服务器/手机设备和Web开发领域. Dart天生就是一个更新更好的全栈式编程语言.
+曾经V8引擎的横空出世彻让JavaScript开发人员成为一等公民, 而基于V8技术的Node.js将JavaScript语言带入了服务器开发领域, 从此JavaScript就磕磕绊绊地走上了全栈开发语言之路. 和C++语言类似, JavaScript语言也是没有经过严格设计的编程语言, 语言的演化过程就是在不停地打新补丁, 同时逐步废弃旧特性. 作为全栈式编程语言, JavaScript在面对越来越复杂的服务器/手机设备等领域的开发中逐渐显露疲惫之态. 而Dart背后有着Google强大地开发团队支持, 一个语言居然携带了DartVM/Flutter AOT编译技术和Dart2js转译等三种不同层面的构建工具, 同时覆盖服务器、手机设备、Web和桌面开发领域. Dart天生就是一个更新更好的全栈式编程语言, 它的目标是制霸地球上的UI应用开发.
 
 Dart不仅仅是一个优秀地全栈式编程语言, 它还占据了天时地利仁和. 首先Google的Kubernetes分布式平台和Fuchsia操作系统等资源都是Dart语言可以大展宏图的平台, Google的Chrome浏览器和Angular框架同样是以推广Dart为己任, 而Flutter和Android更是为Dart进军手机设备开发领域提供了便利之门.
 

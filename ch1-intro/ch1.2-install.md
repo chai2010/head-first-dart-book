@@ -103,7 +103,7 @@ Dart的命令行工具最终被安装到了`/usr/lib/dart/bin`目录下, 用户�
 
 ### 1.2.4 pub镜像服务
 
-pub是Dart工具箱中最重要的工具, 它负责Dart包的全部管理工作. Dart的第三方包一般都是由 https://pub.dartlang.org/ 包服务管理. 中国大陆的Flutter中文社区和上海交通大学都为Dart官方的包服务提供了镜像服务. 可以通过`PUB_HOSTED_URL`环境变量告知pub命令从哪个服务下载包资源.
+pub是Dart工具箱中最重要的工具, 它负责Dart包的全部管理工作. Dart的第三方包一般都是由 https://pub.dev/ 包服务管理. 中国大陆的Flutter中文社区和上海交通大学都为Dart官方的包服务提供了镜像服务. 可以通过`PUB_HOSTED_URL`环境变量告知pub命令从哪个服务下载包资源.
 
 下面命令是设置从Flutter中文社区提供的镜像下载包:
 
